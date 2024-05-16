@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+h2{   
+    clear: both;
+    float: both;
+    width: 100%;height:80px ; 
+    box-shadow: 10px 10px 10px rgb(49, 159, 184);
+    position: fixed;background-color: white;
+}
+h1{
+   padding-top: 6%;
+    background-color: rgb(49, 159, 184);
+    font-family: "Brush Script MT", cursive;
+    color:white;
+    text-align: center;
+    font-size: 100px;
+}
+
+p.b{
+   filter: drop-shadow(5px 5px 10px rgb(197, 135, 135));margin-top: 80px;
+}
+p.b#icon{
+    height:"250px";
+     width:"175px" ;
+     cursor: pointer;
+}
+#icon:hover{
+    z-index: 10;
+    transition:  200ms ease-in;
+    transform: scale(1,2);
+}
+#icon1:hover{
+    z-index: 10;
+    transition:  200ms ease-in;
+    transform: scale(1,2);
+}
+#icon2:hover{
+    z-index: 10;
+    transition:  200ms ease-in;
+    transform: scale(1,2);
+}
+#icon3:hover{
+    z-index: 10;
+    transition:  200ms ease-in;
+    transform: scale(1,2);
+}
+#icon4:hover{
+    z-index: 10;
+    transition:  200ms ease-in;
+    transform: scale(1,2);
+}
+#icon5:hover{
+    z-index: 10;
+    transition:  200ms ease-in;
+    transform: scale(1,2);
+}
+#icon6:hover{
+    z-index: 10;
+    transition:  200ms ease-in;
+    transform: scale(1,2);
+}
+#icon7:hover{
+    z-index: 10;
+    transition:  200ms ease-in;
+    transform: scale(1,2);
+}
+#icon8:hover{
+    z-index: 10;
+    transition:  200ms ease-in;
+    transform: scale(1,2);
+}
+#icon9:hover{
+    z-index: 10;
+    transition:  200ms ease-in;
+    transform: scale(1,2);
+}
+div{
+    width:100%;height: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 8, 107);
+   display: block;
+}
+ul li a:hover{
+    border-radius: 20px;
+    background:rgb(8, 8, 107);
+    color: white
+}
+ul li{
+    display: inline-block;
+    margin-right: 30px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 35px;
+}
+ul li a{
+    padding:6px 15px;
+   
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    list-style: none;
+}
+h2{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+h3{
+    font-size: 50px;padding-top: 100px;
+    color:rgb(8, 8, 107);
+}
+label{
+    font-size: 50px;
+    color:rgb(8, 8, 107);
+}
+img{
+    display: inline;
+}
+video{
+    display: inline;width: 600px;border-top-left-radius: 10%;border-top-right-radius:
+     10%;border-bottom-left-radius: 10%;border-bottom-right-radius: 10%;
+}
+form{
+    margin-left: 30%;
+}

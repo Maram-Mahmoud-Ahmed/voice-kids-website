@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="csstest.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Crash</title>
+</head>
+<body>
+    <h2>
+        <img src="C3.PNG" height="60px" width="250px">
+    </h2>
+    <h3>Question one: count and choose </h3>
+    <div>
+        <img id="img" src="three-red-cats-white-background-93789621.webp" height="500px">
+        <video id="video" src="c:\Users\Lenovo\Downloads\istockphoto-1360501634-640_adpp_is.mp4"></video>
+
+    </div>
+    <div>
+        <label for="book">Choose Answer</label>
+        <select id="answerSelect" name="Answer">
+            <optgroup label="Answer is">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </optgroup>
+        </select>
+
+
+        <form id="answerForm">
+            <input type="radio" id="1" name="answer" value="1">
+            <label for="1">1</label><br>
+            <input type="radio" id="2" name="answer" value="2">
+            <label for="2">2</label><br>
+            <input type="radio" id="javascript" name="answer" value="3">
+            <label for="3">3</label>
+        </form>
+        <audio id="audio2" src="c:\Users\Lenovo\Downloads\WhatsApp Video 2024-05-11 at 10.40.34 PM.mp4"></audio>
+        <audio id="audio1" src="WhatsApp Ptt 2024-05-11 at 10.31.46 PM.ogg"></audio>
+        <audio id="audio" src="https://dm0qx8t0i9gc9.cloudfront.net/previews/audio/BsTwCwBHBjzwub4i4/live-concert-clapping-and-cheering_fkylQpEO_NWM.mp3"></audio>
+
+    <script>
+        var audio = document.getElementById("audio");
+        var audio1 = document.getElementById("audio1");
+        var audio2 = document.getElementById("audio2");
+
+        var answerForm = document.getElementById("answerForm");
+        answerForm.addEventListener("change", function(event) {
+            var selectedValue = event.target.value;
+            if (selectedValue === "3") {
+                audio.play();video.play();
+                // Additional actions for correct answer
+            } else if(selectedValue === "1"){
+                audio2.play();audio.pause();video.pause();
+                // Additional actions for incorrect answer
+            }
+            else if(selectedValue === "2"){
+                audio1.play();audio.pause();video.pause();
+
+            }
+        });
+    </script>
+<audio id="audio1" src="c:\Users\Lenovo\Downloads\WhatsApp Ptt 2024-05-11 at 10.31.46 PM.ogg"></audio>
+<audio id="audio" src="3234068_congratulations-crowd-cheer_by_marburymedia_preview.mp3"></audio>
+
+       
+        <script>
+            var audio = document.getElementById("audio");
+            var audio1 = document.getElementById("audio1");
+
+            var answerSelect = document.getElementById("answerSelect");
+            
+            answerSelect.onchange = function() {
+                if (answerSelect.value === "3") {
+                    audio.play();video.play();
+                }
+                else {
+                     audio1.play(); audio1.play();
+            video.pause(); 
+            audio.pause(); 
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>
