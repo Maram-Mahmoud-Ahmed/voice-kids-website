@@ -12,12 +12,12 @@
     </h2>
     <h3>Frage eins: zählen und wählen</h3>
     <div>
-        <img id="img" src="three-red-cats-white-background-93789621.webp" height="500px">
+        <img id="img" src="C:\Users\Lenovo\Desktop\maram.html\c.css\three-red-cats-white-background-93789621.webp" height="500px">
         <video id="video" src="c:\Users\Lenovo\Downloads\istockphoto-1360501634-640_adpp_is.mp4"></video>
 
     </div>
     <div>
-        <label for="book">Choose Answer</label>
+        <label for="book">wählen Antwort</label>
         <select id="answerSelect" name="Answer">
             <optgroup label="Answer is">
                 <option value="1">1</option>
@@ -35,14 +35,12 @@
             <input type="radio" id="javascript" name="answer" value="3">
             <label for="3">3</label>
         </form>
-        <audio id="audio2" src="c:\Users\Lenovo\Downloads\WhatsApp Video 2024-05-11 at 10.40.34 PM.mp4"></audio>
-        <audio id="audio1" src="WhatsApp Ptt 2024-05-11 at 10.31.46 PM.ogg"></audio>
+        <audio id="audio1" src="c:\Users\Lenovo\Downloads\ElevenLabs_2024-05-14T21_10_32_Adam.mp3"></audio>
         <audio id="audio" src="https://dm0qx8t0i9gc9.cloudfront.net/previews/audio/BsTwCwBHBjzwub4i4/live-concert-clapping-and-cheering_fkylQpEO_NWM.mp3"></audio>
 
     <script>
         var audio = document.getElementById("audio");
         var audio1 = document.getElementById("audio1");
-        var audio2 = document.getElementById("audio2");
 
         var answerForm = document.getElementById("answerForm");
         answerForm.addEventListener("change", function(event) {
@@ -50,17 +48,13 @@
             if (selectedValue === "3") {
                 audio.play();video.play();
                 // Additional actions for correct answer
-            } else if(selectedValue === "1"){
-                audio2.play();audio.pause();video.pause();
-                // Additional actions for incorrect answer
+            } else {
+                audio1.play();
             }
-            else if(selectedValue === "2"){
-                audio1.play();audio.pause();video.pause();
-
-            }
+            
         });
     </script>
-<audio id="audio1" src="c:\Users\Lenovo\Downloads\WhatsApp Ptt 2024-05-11 at 10.31.46 PM.ogg"></audio>
+<audio id="audio1" src="ElevenLabs_2024-05-14T21_10_32_Adam.mp3"></audio>
 <audio id="audio" src="3234068_congratulations-crowd-cheer_by_marburymedia_preview.mp3"></audio>
 
        
