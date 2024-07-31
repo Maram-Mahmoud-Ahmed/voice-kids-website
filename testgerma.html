@@ -34,7 +34,7 @@
             <input type="radio" id="javascript" name="answer" value="3">
             <label for="3">3</label>
         </form>
-        <audio id="audio1" src="c:\Users\Lenovo\Downloads\ElevenLabs_2024-05-14T21_10_32_Adam.mp3"></audio>
+        <audio id="audio1" src="https://github.dev/Maram-Mahmoud-Ahmed/voice-kids-website/blob/main/ElevenLabs_2024-05-14T21_10_32_Adam.mp3"></audio>
         <audio id="audio" src="https://dm0qx8t0i9gc9.cloudfront.net/previews/audio/BsTwCwBHBjzwub4i4/live-concert-clapping-and-cheering_fkylQpEO_NWM.mp3"></audio>
 
     <script>
@@ -48,6 +48,7 @@
                 audio.play();video.play();
                 // Additional actions for correct answer
             } else {
+               audio.pause();video.pause();
                 audio1.play();
             }
             
