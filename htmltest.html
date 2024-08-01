@@ -35,7 +35,7 @@
             <input type="radio" id="javascript" name="answer" value="3">
             <label for="3">3</label>
         </form>
-        <audio id="audio2" src="c:\Users\Lenovo\Downloads\WhatsApp Video 2024-05-11 at 10.40.34 PM.mp4"></audio>
+        <audio id="audio2" src="https://maram-mahmoud-ahmed.github.io/voice-kids-website/WhatsApp%20Video%202024-05-11%20at%2010.40.34%20PM.mp4"></audio>
         <audio id="audio1" src="WhatsApp Ptt 2024-05-11 at 10.31.46 PM.ogg"></audio>
         <audio id="audio" src="https://dm0qx8t0i9gc9.cloudfront.net/previews/audio/BsTwCwBHBjzwub4i4/live-concert-clapping-and-cheering_fkylQpEO_NWM.mp3"></audio>
 
@@ -50,18 +50,23 @@
             if (selectedValue === "3") {
                 audio.play();video.play();
                 // Additional actions for correct answer
-            } else {
+            } else if(selectedValue === "1") {
                 audio1.play();audio.pause();video.pause();
+            }
+            else {
+                audio2.play();audio.pause();video.pause();
             }
         });
     </script>
-<audio id="audio1" src="c:\Users\Lenovo\Downloads\WhatsApp Ptt 2024-05-11 at 10.31.46 PM.ogg"></audio>
-<audio id="audio" src="3234068_congratulations-crowd-cheer_by_marburymedia_preview.mp3"></audio>
+ <audio id="audio2" src="https://maram-mahmoud-ahmed.github.io/voice-kids-website/WhatsApp%20Video%202024-05-11%20at%2010.40.34%20PM.mp4"></audio>
+        <audio id="audio1" src="WhatsApp Ptt 2024-05-11 at 10.31.46 PM.ogg"></audio>
+        <audio id="audio" src="https://dm0qx8t0i9gc9.cloudfront.net/previews/audio/BsTwCwBHBjzwub4i4/live-concert-clapping-and-cheering_fkylQpEO_NWM.mp3"></audio>
 
        
         <script>
             var audio = document.getElementById("audio");
             var audio1 = document.getElementById("audio1");
+             var audio2 = document.getElementById("audio2");
 
             var answerSelect = document.getElementById("answerSelect");
             
@@ -69,11 +74,12 @@
                 if (answerSelect.value === "3") {
                     audio.play();video.play();
                 }
-                else {
-                     audio1.play(); audio1.play();
-            video.pause(); 
-            audio.pause(); 
-                }
+               else if(selectedValue === "1") {
+                audio1.play();audio.pause();video.pause();
+            }
+            else {
+                audio2.play();audio.pause();video.pause();
+            }
             }
         </script>
     </div>
